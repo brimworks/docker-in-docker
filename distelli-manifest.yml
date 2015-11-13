@@ -1,0 +1,11 @@
+alexleventer/docker-in-docker:
+
+Build:
+  - sudo apt-get update --qq
+  - sudo apt-get install -qqy
+  - sudo apt-get install apt-transport-https
+  - sudo apt-get install ca-certificates
+  - sudo apt-get curl
+  - sudo apt-get lxc
+  - sudo apt-get iptables
+  - curl -sSL https://get.docker.com/ubuntu/ | sh
