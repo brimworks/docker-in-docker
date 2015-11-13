@@ -7,4 +7,4 @@ distelli/docker-in-docker:
     - sudo apt-get curl
     - sudo apt-get lxc
     - sudo apt-get iptables
-    - curl -sSL https://get.docker.com/ubuntu/ | sh
+    - sudo curl -sSL https://get.docker.com/ubuntu/ | sh
