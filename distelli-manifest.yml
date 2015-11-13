@@ -1,4 +1,4 @@
-alexleventer/docker-in-docker:
+distelli/docker-in-docker:
 
 Build:
   - sudo apt-get update --qq
