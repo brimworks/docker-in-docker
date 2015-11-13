@@ -7,4 +7,6 @@ distelli/docker-in-docker:
     - sudo apt-get install -y curl
     - sudo apt-get install -y lxc
     - sudo apt-get install -y iptables
-    - sudo curl -sSL https://get.docker.com/ubuntu/ | sh
+    - sudo curl -sSL https://get.docker.com/ | sh
+    - which docker
+    - docker pull alexleventer/node-docker
