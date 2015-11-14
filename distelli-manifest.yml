@@ -9,4 +9,4 @@ distelli/docker-in-docker:
     - sudo apt-get install -y iptables
     - sudo curl -sSL https://get.docker.com/ | sh
     - which docker
-    - docker pull alexleventer/node-docker
+    - /usr/bin/docker/wrapdocker wrapdocker docker pull alexleventer/node-docker
